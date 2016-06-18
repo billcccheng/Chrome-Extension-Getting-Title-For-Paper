@@ -7,7 +7,7 @@ function DOMtoString(document_root) {
     for (var i=0; i<metas.length; i++) { 
       if (metas[i].getAttribute("name") == "citation_title") {
           var selected_text = getSelectionText() 
-          return selected_text+'\n['+metas[i].getAttribute("content")+']'; 
+          return selected_text+'\nFrom:['+metas[i].getAttribute("content")+']'; 
       } 
     }
     return "not found";

@@ -43,5 +43,5 @@ function onClickHandler(info, tab) {
 // }
 
 function copyToClipBoard(text) {
-  prompt("Ctrl+C or Cmd+C to Copy\n"+text, text)
+  prompt("Ctrl+C or Cmd+C to Copy:\n"+text, text)
 }
